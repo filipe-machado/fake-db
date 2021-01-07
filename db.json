@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "",
+      "user": "qwerty",
+      "pass": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "user": "potato",
+      "pass": ""
+    }
+  ],
+  "markets": [
+    {
+      "id": 1,
+      "name": "Carrefour",
+      "country": "País",
+      "city": "Cidade",
+      "region": "Estado",
+      "zip": "78949-000",
+      "address": "Av. Avenida",
+      "district": "Bairro",
+      "number": "123",
+      "queues": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "BH",
+      "country": "País",
+      "city": "Cidade",
+      "region": "Estado",
+      "zip": "78949-000",
+      "address": "Av. Avenida",
+      "district": "Bairro",
+      "number": "123",
+      "queues": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tenda",
+      "country": "País",
+      "city": "Cidade",
+      "region": "Estado",
+      "zip": "78949-000",
+      "address": "Av. Avenida",
+      "district": "Bairro",
+      "number": "123",
+      "queues": [
+        1,
+        2
+      ]
+    }
+  ],
+  "queues": [
+    {
+      "id": 1,
+      "value": "normal"
+    },
+    {
+      "id": 2,
+      "value": "preferencial"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 34532,
+      "value": "N67",
+      "queueId": 1
+    }
+  ],
+  "history": [
+    {
+      "userId": 1,
+      "marketId": 1,
+      "queueId": 1,
+      "ticketId": 34532
+    }
+  ],
+  "logs": [
+    {
+      "description": {
+        "message": "Request failed with status code 404",
+        "name": "Error",
+        "stack": "Error: Request failed with status code 404\n    at createError (http://e-ticket.io:3001/static/js/3.chunk.js:612:15)\n    at settle (http://e-ticket.io:3001/static/js/3.chunk.js:846:12)\n    at XMLHttpRequest.handleLoad (http://e-ticket.io:3001/static/js/3.chunk.js:86:7)",
+        "config": {
+          "url": "/queues/undefined",
+          "method": "get",
+          "headers": {
+            "Accept": "application/json, text/plain, */*"
+          },
+          "baseURL": "http://localhost:3000",
+          "transformRequest": [
+            null
+          ],
+          "transformResponse": [
+            null
+          ],
+          "timeout": 0,
+          "xsrfCookieName": "XSRF-TOKEN",
+          "xsrfHeaderName": "X-XSRF-TOKEN",
+          "maxContentLength": -1,
+          "maxBodyLength": -1
+        }
+      },
+      "id": 1
+    },
+    {
+      "description": {
+        "message": "Request failed with status code 404",
+        "name": "Error",
+        "stack": "Error: Request failed with status code 404\n    at createError (http://e-ticket.io:3001/static/js/3.chunk.js:612:15)\n    at settle (http://e-ticket.io:3001/static/js/3.chunk.js:846:12)\n    at XMLHttpRequest.handleLoad (http://e-ticket.io:3001/static/js/3.chunk.js:86:7)",
+        "config": {
+          "url": "/queues/undefined",
+          "method": "get",
+          "headers": {
+            "Accept": "application/json, text/plain, */*"
+          },
+          "baseURL": "http://localhost:3000",
+          "transformRequest": [
+            null
+          ],
+          "transformResponse": [
+            null
+          ],
+          "timeout": 0,
+          "xsrfCookieName": "XSRF-TOKEN",
+          "xsrfHeaderName": "X-XSRF-TOKEN",
+          "maxContentLength": -1,
+          "maxBodyLength": -1
+        }
+      },
+      "id": 2
+    }
+  ]
+}
