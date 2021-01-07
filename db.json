@@ -69,12 +69,11 @@
       "value": "preferencial"
     }
   ],
-  "history": [
+  "tickets": [
     {
-      "userId": 1,
-      "marketId": 1,
-      "queueId": 1,
-      "ticketId": 34532
+      "id": 34532,
+      "value": "N67",
+      "queueId": 1
     }
   ]
 }
