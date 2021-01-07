@@ -59,6 +59,20 @@
       ]
     }
   ],
+  "services": [
+    {
+      "id": 1,
+      "value": "açougue"
+    },
+    {
+      "id": 2,
+      "value": "padaria"
+    },
+    {
+      "id": 3,
+      "value": "conveniência"
+    }
+  ],
   "queues": [
     {
       "id": 1,
