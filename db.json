@@ -1,4 +1,20 @@
 {
-  "success": "true",
-  "message": "Convênio em período de carência"
+  "users": [
+    {
+      "id": 1,
+      "name": "Neo",
+      "src": {
+        "alt": "Neo's avatar",
+        "path": "https://miro.medium.com/max/484/1*U2Uf7UK2fobVl6yCQQt-Ag.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Smith",
+      "src": {
+        "alt": "Smith's avatar",
+        "path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2WxKqTVdqtMSuPE31UaL7tlDrnTw1ubKKb3D0LRe_XlxPltoOd8cNXMDYi6YdYbPEPgc&usqp=CAU"
+      }
+    }
+  ]
 }
